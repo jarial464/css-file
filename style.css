@@ -1,0 +1,138 @@
+html {
+    font: 400 20px/1.5 Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    font-variant: small-caps;
+  }
+  
+  figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.1rem; 
+  }
+  
+  q {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.1rem; 
+  }
+  
+  footer p {
+    font-size: 0.9rem; 
+  }
+  
+  body {
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  img.main-section-figure, figure.main-section-figure {
+    width: 80%; 
+    height: auto; 
+  }
+  
+  video, iframe {
+    width: 80%; 
+  }
+  
+  body {
+    padding: 20px; 
+  }
+  
+  header, footer {
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  }
+  
+  .main-section {
+    text-align: center;
+    padding: 20px; 
+  }
+  
+  #bio {
+    text-align: center;
+  }
+  
+  .main-section-figure {
+    padding: 10px; 
+    margin: 10px auto; 
+  }
+  
+  #absolute-path-image, #relative-path-image {
+    border: 2px solid;
+    border-radius: 10px; 
+  }
+  
+  video, iframe {
+    padding: 10px; 
+  }
+  
+  header, footer {
+    border: 2px solid #333; 
+  }
+  
+  img.main-section-figure, figure.main-section-figure {
+    border: 2px solid #999; 
+    border-radius: 10px; 
+  }
+  
+  #absolute-path-image {
+    border-color: rgb(100, 200, 50); 
+  }
+  
+  #relative-path-image {
+    border-color: rgb(50, 100, 200); 
+  }
+  
+  video, iframe {
+    border: 2px solid #666; 
+    border-radius: 10px; 
+  }
+  
+  #bio blockquote, #quote blockquote q {
+    border: 1px solid #2D9596;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  #quote blockquote q{
+    box-shadow: 10px 10px 58px 0px rgba(101,130,207,1);
+  }
+  
+  #bio blockquote q {
+    box-shadow: 3px 3px 3px #888; 
+  }
+  
+  #absolute-path-image figcaption {
+    color: rgb(43, 100, 15); 
+  }
+  
+  #relative-path-image figcaption {
+    color: rgb(50, 100, 200); 
+  }
+  
+  h1, h2 {
+    color: rgb(94, 51, 21);
+  }
+  
+  header, footer {
+    /* background: linear-gradient(to right, #23627e, #203A43, #0F2027); */
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  .main-section {
+    background-color: hsl(250, 100%, 94%);
+  }
+  
+  #absolute-path-image {
+    background-color: hsla(60, 100%, 90%, 0.5);
+  }
+  
+  #relative-path-image {
+    background-color: hsla(240, 100%, 90%, 0.5); 
+  }
+  
